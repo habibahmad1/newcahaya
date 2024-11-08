@@ -38,6 +38,7 @@
 .hero .text-hero {
   width: 600px;
   margin-left: -400px;
+  text-transform: capitalize;
 }
 
 .hero .text-hero p:first-of-type {
@@ -128,7 +129,7 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  top: 1000px;
+  top: 1050px;
   left: 300px;
   position: absolute;
 }
@@ -148,4 +149,90 @@
 
 .card-orange .card i {
   margin-bottom: 10px;
+}
+
+/* Content Why */
+.why {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 80px;
+  padding: 40px 0;
+}
+
+.why .why-img img {
+  width: 600px;
+}
+
+.text-why {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.text-why .title {
+  font-size: 30px;
+}
+
+.text-why .why-benefit {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-why .button {
+  margin-top: 20px;
+  display: flex;
+}
+
+.text-why .button .message {
+  background-color: #ff8d58;
+  padding: 15px 20px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+/* Content-Testimoni */
+.testimoni {
+  background-color: #f0efef;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimoni .text {
+  font-size: 40px;
+}
+
+.testimoni .text-testimoni {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.testimoni .text-testimoni .next-text {
+  display: flex;
+  justify-content: right;
+  margin: 20px;
+}
+
+.testimoni .testi-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimoni .testi-slider .card-testi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  padding: 80px;
+  margin: 80px;
+  background-color: #fff;
+}
+
+.testimoni .profil {
+  display: flex;
 }
