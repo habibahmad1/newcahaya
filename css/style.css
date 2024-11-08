@@ -32,7 +32,7 @@
   justify-content: space-evenly;
   align-items: center;
   margin: 200px 0;
-  padding-bottom: 1000px;
+  padding-bottom: 200px;
 }
 
 .hero .text-hero {
@@ -41,7 +41,7 @@
 }
 
 .hero .text-hero p:first-of-type {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   margin: 40px 0;
 }
@@ -55,4 +55,97 @@
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.button-hero {
+  display: flex;
+  margin: 20px 0;
+}
+
+.button-hero .buynow {
+  display: block;
+  padding: 20px 60px;
+  border-radius: 8px;
+  background-color: #ff8d58;
+  color: #fff;
+}
+
+.button-hero .readmore {
+  display: block;
+  padding: 20px 60px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-left: 20px;
+  border: 1px solid black;
+}
+
+/* Content Keunggulan */
+.keunggulan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  padding: 80px;
+  flex-wrap: wrap;
+}
+
+.keunggulan .slogan {
+  font-size: 40px;
+  margin-bottom: 80px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.keunggulan .card-keunggulan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.keunggulan .card-keunggulan .list-keunggulan {
+  margin: 20px;
+  padding: 40px;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+}
+
+.keunggulan .card-keunggulan .list-keunggulan .icon {
+  font-size: 40px;
+  margin: 40px 0;
+}
+
+.keunggulan .card-keunggulan .list-keunggulan h3 {
+  margin: 20px 0;
+}
+
+/* Card Orange */
+.card-orange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  top: 1000px;
+  left: 300px;
+  position: absolute;
+}
+
+.card-orange .card {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 40px;
+  margin: 0 20px;
+  width: 400px;
+  height: 140px;
+  background-color: #ff8d58;
+  border-radius: 8px;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.card-orange .card i {
+  margin-bottom: 10px;
 }
