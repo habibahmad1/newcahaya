@@ -194,52 +194,79 @@
 
 /* Content-Testimoni */
 .testimoni {
-  background-color: #f0efef;
-  padding: 60px;
-  display: flex;
-  flex-direction: column;
+  background-color: #f7f9fc;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-.testimoni .text {
-  font-size: 40px;
+.text-testimoni h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-.testimoni .text-testimoni {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.testimoni .text-testimoni .next-text {
-  display: flex;
-  justify-content: right;
-  margin: 20px;
-}
-
-.testimoni .testi-slider {
+.next-text {
   display: flex;
   justify-content: center;
-  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
 }
 
-.testimoni .testi-slider .card-testi {
+.next-text .button {
+  background-color: #ff8d58;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.testi-slider {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  width: 900px;
-  padding: 80px;
-  margin: 80px;
-  background-color: #fff;
+  overflow: hidden;
 }
 
-.testimoni .profil-testi {
+.card-testi {
+  display: none; /* Hide all cards initially */
+  width: 100%;
+  max-width: 70%; /* Optional: limit the width of the testimonial */
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-testi p {
+  margin: 20px 0;
+}
+
+.card-testi.active {
+  display: block; /* Only show the active card */
+  margin: 40px 0;
+}
+
+.profil-testi {
   display: flex;
-  margin-top: 120px;
-  justify-content: center;
   align-items: center;
+  margin-top: 15px;
+  justify-content: center;
 }
 
-.testimoni .profil-testi .profil {
-  margin-left: 20px;
+.profil-testi img {
+  border-radius: 50%;
+}
+
+.profil {
+  margin-left: 10px;
+}
+
+.profil h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.profil small {
+  color: #777;
 }
