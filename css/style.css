@@ -351,3 +351,9 @@
   color: #ff8d58;
   border-radius: 5px;
 }
+
+.slogan-besar .content-slogan .button-slogan:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 5px #000;
+  transition: all 0.3s;
+}
