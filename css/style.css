@@ -200,9 +200,11 @@
   font-family: Arial, sans-serif;
 }
 
-.text-testimoni h2 {
+.text-testimoni h1 {
   font-size: 24px;
   margin-bottom: 20px;
+  margin-top: 60px;
+  font-size: 30px;
 }
 
 .next-text {
@@ -231,25 +233,71 @@
 .card-testi {
   display: none; /* Hide all cards initially */
   width: 100%;
-  max-width: 70%; /* Optional: limit the width of the testimonial */
+  max-width: 60%; /* Optional: limit the width of the testimonial */
+  height: 400px;
   background: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+}
+
+.card-testi:hover {
+  box-shadow: 5px 5px 5px #ff8d58;
 }
 
 .card-testi p {
-  margin: 20px 0;
+  margin: 20px 0 40px 0;
+  padding: 0 60px;
+}
+
+/* Style untuk bintang */
+.star-testi i {
+  color: #ffc107;
+  font-size: 20px;
+  opacity: 0; /* Bintang tidak terlihat di awal */
+  transform: scale(0); /* Ukuran bintang diatur jadi 0 */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Animasi opacity dan transform */
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+/* Aktifkan animasi saat bintang terlihat */
+.star-testi.animate i {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.star-testi.animate i:nth-child(1) {
+  transition-delay: 0.1s;
+}
+
+.star-testi.animate i:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+.star-testi.animate i:nth-child(3) {
+  transition-delay: 0.3s;
+}
+
+.star-testi.animate i:nth-child(4) {
+  transition-delay: 0.4s;
+}
+
+.star-testi.animate i:nth-child(5) {
+  transition-delay: 0.5s;
 }
 
 .card-testi.active {
   display: block; /* Only show the active card */
   margin: 40px 0;
+  padding: 0 0px;
 }
 
 .profil-testi {
   display: flex;
   align-items: center;
+  text-align: left;
   margin-top: 15px;
   justify-content: center;
 }
@@ -269,4 +317,37 @@
 
 .profil small {
   color: #777;
+}
+
+/* Content Slogan */
+.slogan-besar {
+  padding: 80px 0;
+  background-color: #ff8d58;
+  color: #f7f9fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slogan-besar .content-slogan {
+  width: 900px;
+  margin: 40px;
+  text-align: center;
+}
+
+.slogan-besar .content-slogan h1 {
+  font-size: 40px;
+}
+
+.slogan-besar .content-slogan p {
+  margin: 40px 0;
+}
+
+.slogan-besar .content-slogan .button-slogan {
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+  color: #ff8d58;
+  border-radius: 5px;
 }

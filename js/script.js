@@ -5,8 +5,13 @@ const testimonials = document.querySelectorAll(".card-testi");
 function showTestimonial(index) {
   testimonials.forEach((testi, i) => {
     testi.classList.remove("active"); // Hide all cards
+    testi.querySelector(".star-testi").classList.remove("animate"); // Reset animation
     if (i === index) {
       testi.classList.add("active"); // Show only the current card
+      // Trigger star animation with a small delay
+      setTimeout(() => {
+        testi.querySelector(".star-testi").classList.add("animate");
+      }, 100);
     }
   });
 }
