@@ -357,3 +357,33 @@
   box-shadow: 5px 5px 5px #000;
   transition: all 0.3s;
 }
+
+/* Content Footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 150px;
+  display: flex;
+  gap: 80px;
+  justify-content: space-evenly;
+}
+
+.footer .footer-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .footer-1 .sosmed {
+  display: flex;
+  gap: 20px;
+}
+
+.footer .footer-1 .sosmed .link-sosmed {
+  display: flex;
+  gap: 20px;
+}
+
+.footer .footer-1 .sosmed .link-sosmed a {
+  color: #fff;
+}
