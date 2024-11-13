@@ -40,7 +40,14 @@ body {
   text-decoration: none;
   font-size: 22px;
   color: black;
+  transition: color 0.3s ease; /* Smooth transition */
 }
+
+.navbar a:hover {
+  color: #ff8d58; /* Change this color as desired */
+  text-decoration: underline;
+}
+
 
 .hero {
   display: flex;
@@ -60,6 +67,7 @@ body {
   font-size: 40px;
   font-weight: bold;
   margin: 40px 0;
+  color: #ff8d58;
 }
 
 .hero .text-hero p:nth-of-type(2) {
