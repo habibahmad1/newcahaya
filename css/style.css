@@ -749,4 +749,8 @@ body {
   .card-orange .card img {
     height: 50px;
   }
+
+  .keunggulan .slogan {
+    font-size: 25px;
+  }
 }
