@@ -48,7 +48,6 @@ body {
   text-decoration: underline;
 }
 
-
 .hero {
   display: flex;
   justify-content: space-evenly;
@@ -500,4 +499,12 @@ body {
 .card-produk .card .button:hover {
   background-color: #f35a14;
   cursor: pointer;
+}
+
+/* Responsif HP */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+    font-size: 16px;
+  }
 }
