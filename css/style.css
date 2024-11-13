@@ -53,7 +53,7 @@ body {
 }
 
 .hero .text-hero p:first-of-type {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   margin: 40px 0;
 }
@@ -140,7 +140,7 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  top: 1050px;
+  top: 1070px;
   left: 300px;
   position: absolute;
 }
@@ -183,7 +183,7 @@ body {
 }
 
 .text-why .title {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .text-why .why-benefit {
@@ -348,7 +348,7 @@ body {
 }
 
 .slogan-besar .content-slogan h1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .slogan-besar .content-slogan p {
