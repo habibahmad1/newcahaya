@@ -543,6 +543,11 @@ body {
   .container {
     width: 100%;
   }
+
+  body {
+    overflow-x: hidden;
+  }
+
   .card-orange {
     position: static;
     margin: 40px 0;
@@ -554,8 +559,38 @@ body {
     position: static;
     padding-bottom: 0;
   }
+
+  .hero .text-hero {
+    width: 400px;
+    margin-left: 0;
+    order: 1;
+  }
+
+  .hero .text-hero p:first-of-type {
+    font-size: 30px;
+  }
+
+  .hero .img-hero {
+    display: flex;
+  }
+  .hero .img-hero {
+    order: 0;
+    display: flex;
+  }
   .hero .img-hero img {
     position: static;
-    width: 300px;
+    width: 500px;
+  }
+
+  .button-hero .buynow,
+  .button-hero .readmore {
+    display: block;
+    padding: 15px 15px;
+    border-radius: 8px;
+    background-color: #ff8d58;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    text-align: center;
   }
 }
