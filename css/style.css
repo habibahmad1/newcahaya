@@ -459,6 +459,7 @@ body {
 
 .card-produk .card-img {
   background-color: #dfdfdf;
+  filter: brightness(110%);
 }
 
 .card-produk .card img:hover {
