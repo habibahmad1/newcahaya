@@ -95,8 +95,6 @@ body {
   border: 1px solid black;
 }
 
-
-
 /* Content Keunggulan */
 .keunggulan {
   display: flex;
@@ -180,7 +178,7 @@ body {
   height: 200px;
   border-radius: 8px;
 }
-s
+
 /* Content Why */
 .why {
   display: flex;
