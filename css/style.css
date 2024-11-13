@@ -28,6 +28,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 40px 40px;
+  z-index: 10;
 }
 
 .navbar .logo {
@@ -40,6 +41,7 @@ body {
   text-decoration: none;
   font-size: 22px;
   color: black;
+  z-index: 9999;
 }
 
 .hero {
@@ -48,6 +50,7 @@ body {
   align-items: center;
   margin: 200px 0;
   padding-bottom: 200px;
+  position: relative;
 }
 
 .hero .text-hero {
@@ -67,9 +70,9 @@ body {
 }
 
 .hero .img-hero img {
-  width: 1500px;
+  width: 1000px;
   position: absolute;
-  right: 0;
+  right: 200px;
   top: 0;
 }
 
@@ -84,6 +87,10 @@ body {
   border-radius: 8px;
   background-color: #ff8d58;
   color: #fff;
+}
+
+.button-hero .buynow:hover {
+  cursor: pointer;
 }
 
 .button-hero .readmore {
