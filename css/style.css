@@ -80,7 +80,6 @@ body {
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
-
 .hero {
   display: flex;
   justify-content: space-evenly;
@@ -532,4 +531,12 @@ body {
 .card-produk .card .button:hover {
   background-color: #f35a14;
   cursor: pointer;
+}
+
+/* Responsif HP */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+    font-size: 16px;
+  }
 }
