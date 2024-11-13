@@ -28,6 +28,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 40px 40px;
+  z-index: 10;
 }
 
 .navbar .logo {
@@ -40,7 +41,6 @@ body {
   text-decoration: none;
   font-size: 22px;
   color: black;
-  transition: color 0.3s ease; /* Smooth transition */
 }
 
 .navbar a:hover {
@@ -55,6 +55,7 @@ body {
   align-items: center;
   margin: 200px 0;
   padding-bottom: 200px;
+  position: relative;
 }
 
 .hero .text-hero {
@@ -75,9 +76,9 @@ body {
 }
 
 .hero .img-hero img {
-  width: 1500px;
+  width: 1000px;
   position: absolute;
-  right: 0;
+  right: 200px;
   top: 0;
 }
 
@@ -94,6 +95,10 @@ body {
   color: #fff;
 }
 
+.button-hero .buynow:hover {
+  cursor: pointer;
+}
+
 .button-hero .readmore {
   display: block;
   padding: 20px 60px;
@@ -102,8 +107,6 @@ body {
   margin-left: 20px;
   border: 1px solid black;
 }
-
-
 
 /* Content Keunggulan */
 .keunggulan {
@@ -188,7 +191,7 @@ body {
   height: 200px;
   border-radius: 8px;
 }
-s
+
 /* Content Why */
 .why {
   display: flex;
@@ -462,14 +465,20 @@ s
 }
 .card-produk .card img {
   width: 300px;
-  background-color: #d3d2d2;
+  height: 300px;
+  margin: 10px 0;
   transition: all 1s;
+}
+
+.card-produk .card-img {
+  background-color: #dfdfdf;
+  filter: brightness(110%);
 }
 
 .card-produk .card img:hover {
   border-radius: 10px;
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 .card-produk .card p {
