@@ -525,6 +525,10 @@ body {
   color: #fff;
 }
 
+.footer .footer-1 .sosmed .link-sosmed a:hover {
+  color: #ff8d58;
+}
+
 .footer .footer-2,
 .footer .footer-3,
 .footer .footer-4 {
@@ -538,6 +542,17 @@ body {
 .footer .footer-4 a {
   text-decoration: none;
   color: #fff;
+}
+
+.footer .footer-2 a:hover,
+.footer .footer-3 a:hover,
+.footer .footer-4 a:hover {
+  color: #ff8d58;
+  text-decoration: underline;
+}
+
+.footer h3 {
+  color: #ff8d58;
 }
 
 /* Content Product */
