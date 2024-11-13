@@ -17,6 +17,7 @@ html {
 
 body {
   font-family: "Poppins", serif;
+  overflow-x: hidden;
 }
 
 .container {
@@ -125,7 +126,7 @@ body {
 }
 
 .navbar-side nav a:hover {
-  color: #05a3ff;
+  color: #ff8d58;
 }
 
 .hidden {
@@ -725,5 +726,26 @@ body {
 
   .navbar-hp {
     display: flex;
+  }
+  .sosmed {
+    display: flex;
+    justify-content: center;
+  }
+
+  .why .button {
+    justify-content: center;
+  }
+
+  .text-why {
+    text-align: center;
+  }
+
+  .card-orange .card {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .card-orange .card img {
+    height: 50px;
   }
 }
