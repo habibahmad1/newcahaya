@@ -91,6 +91,8 @@ body {
   border: 1px solid black;
 }
 
+
+
 /* Content Keunggulan */
 .keunggulan {
   display: flex;
@@ -162,6 +164,19 @@ body {
   margin-bottom: 10px;
 }
 
+.card-orange .card p {
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+s
 /* Content Why */
 .why {
   display: flex;
