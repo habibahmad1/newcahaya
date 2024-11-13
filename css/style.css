@@ -80,6 +80,68 @@ body {
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
+/* Navbar HP */
+
+.navbar-hp {
+  display: none;
+  height: 60px;
+  background-color: #ff8d58;
+  align-items: center;
+  justify-content: space-around;
+  gap: 250px;
+  color: white;
+}
+
+.navbar-hp a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.navbar-side {
+  background-color: #fff;
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  right: -9900px;
+  transition: all 0.5s;
+}
+
+.navbar-side.active {
+  right: 0;
+}
+
+.navbar-side nav {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.navbar-side nav a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px 0;
+  color: #000;
+}
+
+.navbar-side nav a:hover {
+  color: #05a3ff;
+}
+
+.hidden {
+  top: -100px; /* Menyembunyikan navbar di luar layar */
+}
+.navbar-hp .button {
+  font-size: 30px;
+}
+.navbar-hp .button:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+/* Content Hero */
+
 .hero {
   display: flex;
   justify-content: space-evenly;
@@ -231,6 +293,7 @@ body {
   align-items: center;
   margin: 80px;
   padding: 40px 0;
+  flex-wrap: wrap;
 }
 
 .why .why-img img {
@@ -552,9 +615,11 @@ body {
     position: static;
     margin: 40px 0;
   }
+
   .card-orange .card {
     padding: 10px 15px;
   }
+
   .hero {
     position: static;
     padding-bottom: 0;
@@ -573,10 +638,12 @@ body {
   .hero .img-hero {
     display: flex;
   }
+
   .hero .img-hero {
     order: 0;
     display: flex;
   }
+
   .hero .img-hero img {
     position: static;
     width: 500px;
@@ -592,5 +659,57 @@ body {
     border: none;
     font-size: 12px;
     text-align: center;
+  }
+
+  .slogan-besar .content-slogan {
+    width: 300px;
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .slogan-besar .content-slogan h1 {
+    font-size: 25px;
+  }
+
+  .slogan-besar .content-slogan p {
+    font-size: 15px;
+  }
+
+  .slogan-besar .content-slogan .button-slogan {
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #ff8d58;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .card-testi {
+    display: none; /* Hide all cards initially */
+    width: 100%;
+    max-width: 80%; /* Optional: limit the width of the testimonial */
+    height: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+  }
+
+  .why .why-img img {
+    width: 300px;
+    margin: 40px 0;
+  }
+
+  .keunggulan {
+    padding: 20px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbar-hp {
+    display: flex;
   }
 }

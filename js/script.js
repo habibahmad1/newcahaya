@@ -17,15 +17,15 @@ function showTestimonial(index) {
 }
 
 //navbar scroll
-  window.addEventListener("scroll", function () {
-    const navbar = document.querySelector(".navbar");
-    if (window.scrollY > 50) { // Adjust scroll threshold as needed
-      navbar.classList.add("scrolled");
-    } else {
-      navbar.classList.remove("scrolled");
-    }
-  });
-
+window.addEventListener("scroll", function () {
+  const navbar = document.querySelector(".navbar");
+  if (window.scrollY > 50) {
+    // Adjust scroll threshold as needed
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
+});
 
 // Show next testimonial
 function showNext() {
@@ -41,3 +41,12 @@ function showPrev() {
 
 // Initial display of the first testimonial
 showTestimonial(currentIndex);
+
+let lastScrollTop = 0;
+
+const button = document.querySelector(".button");
+const navbarhp = document.querySelector(".navbar-side");
+
+button.addEventListener("click", () => {
+  navbarhp.classList.toggle("active"); // Toggle kelas "active"
+});
