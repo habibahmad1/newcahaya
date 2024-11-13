@@ -189,7 +189,8 @@ body {
   color: #fff;
 }
 
-.button-hero .buynow:hover {
+.button-hero .buynow:hover,
+.button-hero .readmore:hover {
   cursor: pointer;
 }
 
