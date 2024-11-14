@@ -100,7 +100,7 @@ body {
 }
 
 .navbar-side {
-  background-color: #fff;
+  background-color: #ffd0bd;
   width: 50vw;
   height: 100vh;
   position: absolute;
@@ -127,6 +127,8 @@ body {
 
 .navbar-side nav a:hover {
   color: #ff8d58;
+  cursor: pointer;
+  color: #fff;
 }
 
 .hidden {
