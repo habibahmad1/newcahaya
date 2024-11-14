@@ -240,6 +240,7 @@ body {
 .keunggulan .card-keunggulan .list-keunggulan .icon {
   font-size: 40px;
   margin: 40px 0;
+  color: #ff8d58;
 }
 
 .keunggulan .card-keunggulan .list-keunggulan h3 {
@@ -718,7 +719,7 @@ body {
   }
 
   .keunggulan {
-    padding: 20px;
+    padding: 20px 20px 180px 20px;
   }
 
   .navbar {
@@ -752,5 +753,9 @@ body {
 
   .keunggulan .slogan {
     font-size: 25px;
+  }
+
+  .keunggulan .card-keunggulan .list-keunggulan {
+    width: 300px;
   }
 }
