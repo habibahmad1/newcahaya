@@ -50,3 +50,8 @@ const navbarhp = document.querySelector(".navbar-side");
 button.addEventListener("click", () => {
   navbarhp.classList.toggle("active"); // Toggle kelas "active"
 });
+
+
+
+
+
