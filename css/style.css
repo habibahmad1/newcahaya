@@ -364,6 +364,9 @@ body {
 
 .card-orange .card i {
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .card-orange .card p {
