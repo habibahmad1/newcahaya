@@ -100,7 +100,7 @@ body {
 }
 
 .navbar-side {
-  background-color: #ffd0bd;
+  background-color: #fce4db;
   width: 50vw;
   height: 100vh;
   position: absolute;
@@ -759,5 +759,17 @@ body {
 
   .keunggulan .card-keunggulan .list-keunggulan {
     width: 300px;
+  }
+
+  .produk {
+    padding: 80px 20px;
+  }
+
+  .produk h1 {
+    text-align: center;
+  }
+
+  .footer {
+    padding: 150px 20px;
   }
 }
