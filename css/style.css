@@ -382,6 +382,29 @@ body {
   border-radius: 8px;
 }
 
+
+/*grafik about */
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #f7f9fc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myChart {
+  width: 100%;
+  max-width: 1500px;
+  height: auto;
+}
+
+
 /* About Section */
 .about {
   padding: 80px 20px;
