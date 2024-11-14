@@ -505,28 +505,14 @@ body {
 /* Aktifkan animasi saat bintang terlihat */
 .star-testi.animate i {
   opacity: 1;
-  transform: scale(1);
+  transform: scale(1); /* Membuat bintang muncul dengan ukuran normal */
 }
 
-.star-testi.animate i:nth-child(1) {
-  transition-delay: 0.1s;
-}
-
-.star-testi.animate i:nth-child(2) {
-  transition-delay: 0.2s;
-}
-
-.star-testi.animate i:nth-child(3) {
-  transition-delay: 0.3s;
-}
-
-.star-testi.animate i:nth-child(4) {
-  transition-delay: 0.4s;
-}
-
-.star-testi.animate i:nth-child(5) {
-  transition-delay: 0.5s;
-}
+.star-testi.animate i:nth-child(1) { transition-delay: 0.1s; }
+.star-testi.animate i:nth-child(2) { transition-delay: 0.2s; }
+.star-testi.animate i:nth-child(3) { transition-delay: 0.3s; }
+.star-testi.animate i:nth-child(4) { transition-delay: 0.4s; }
+.star-testi.animate i:nth-child(5) { transition-delay: 0.5s; }
 
 .card-testi.active {
   display: block; /* Only show the active card */
