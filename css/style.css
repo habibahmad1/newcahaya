@@ -468,7 +468,6 @@ body {
 
 .card-faq.active p {
   display: block;
-  max-height: 1000px; /* Mengatur tinggi maksimal untuk transisi animasi */
   padding: 10px 0; /* Menambahkan padding saat teks muncul */
 }
 
