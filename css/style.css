@@ -1029,8 +1029,9 @@ body {
   }
 
   .why .why-img img {
-    width: 300px;
-    margin: 40px 0;
+    width: 100%;
+    max-width: 300px; /* Sesuaikan dengan kebutuhan */
+    height: auto;
   }
 
   .keunggulan {
@@ -1096,7 +1097,7 @@ body {
     height: 400px;
   }
 
-  .img-hero img {
+  .hero .img-hero img {
     display: none;
   }
 
