@@ -243,6 +243,10 @@ body {
   top: 0;
 }
 
+.img-hero-hp img {
+  display: none;
+}
+
 .img-hero img {
   transition: transform 0.5s ease;
 }
@@ -428,7 +432,7 @@ body {
 }
 
 .faq-title h1 {
-  color: #ff8d58;
+  color: #fff;
   font-size: 36px;
   margin: 20px 0;
 }
@@ -1097,5 +1101,14 @@ body {
   .map iframe {
     width: 300px;
     height: 400px;
+  }
+
+  .img-hero img {
+    display: none;
+  }
+
+  .img-hero-hp img {
+    display: flex;
+    width: 300px;
   }
 }
