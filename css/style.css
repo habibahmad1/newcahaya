@@ -463,11 +463,11 @@ body {
   margin-top: 10px;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease-out, padding 0.3s ease-out; /* Animasi pada saat muncul dan hilang */
 }
 
 .card-faq.active p {
   display: block;
+  max-height: 400px; /* Mengatur tinggi maksimal untuk transisi animasi */
   padding: 10px 0; /* Menambahkan padding saat teks muncul */
 }
 
