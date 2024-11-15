@@ -112,12 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // JavaScript untuk menambahkan interaksi klik pada setiap card FAQ
 document.querySelectorAll(".card-faq").forEach((card) => {
   card.addEventListener("click", () => {
-    // Hapus kelas 'active' dari semua kartu lainnya
-    document
-      .querySelectorAll(".card-faq")
-      .forEach((c) => c.classList.remove("active"));
-
-    // Tambahkan kelas 'active' ke kartu yang diklik
+    // Toggle kelas 'active' pada kartu yang diklik
     card.classList.toggle("active");
   });
 });

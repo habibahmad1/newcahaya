@@ -416,6 +416,7 @@ body {
   width: 100%;
   padding: 60px;
   background-color: #666;
+  user-select: none;
 }
 
 .faq-title {
@@ -440,6 +441,11 @@ body {
   padding: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  transition: transform 0.3s ease; /* Animasi untuk efek zoom saat hover */
+}
+
+.card-faq:hover {
+  transform: scale(1.03); /* Efek perbesaran saat hover */
 }
 
 .card-faq h2 {
@@ -452,10 +458,15 @@ body {
   display: none;
   color: #666;
   margin-top: 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out; /* Animasi pada saat muncul dan hilang */
 }
 
 .card-faq.active p {
   display: block;
+  max-height: 1000px; /* Mengatur tinggi maksimal untuk transisi animasi */
+  padding: 10px 0; /* Menambahkan padding saat teks muncul */
 }
 
 /* About Section */
