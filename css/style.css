@@ -943,10 +943,6 @@ body {
 
 /* Responsif HP */
 @media (max-width: 600px) {
-  .container {
-    width: 100%;
-  }
-
   body {
     overflow-x: hidden;
   }
