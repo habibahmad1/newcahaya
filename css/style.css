@@ -406,6 +406,58 @@ body {
   height: auto;
 }
 
+/* FAQ */
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 60px;
+  background-color: #666;
+}
+
+.faq-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.faq-title h1 {
+  color: #ff8d58;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.card-faq {
+  width: 600px;
+  background: #fff;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.card-faq h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.card-faq p {
+  display: none;
+  color: #666;
+  margin-top: 10px;
+}
+
+.card-faq.active p {
+  display: block;
+}
+
 /* About Section */
 .about {
   padding: 80px 20px;
@@ -1005,5 +1057,9 @@ body {
 
   .footer {
     padding: 150px 20px;
+  }
+
+  .card-faq {
+    width: 300px;
   }
 }
