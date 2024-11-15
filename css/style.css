@@ -385,7 +385,6 @@ body {
   border-radius: 8px;
 }
 
-
 /*grafik about */
 .chart-container {
   display: flex;
@@ -406,7 +405,6 @@ body {
   max-width: 1500px;
   height: auto;
 }
-
 
 /* About Section */
 .about {
