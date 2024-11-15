@@ -943,6 +943,7 @@ body {
 
 /* Responsif HP */
 @media (max-width: 600px) {
+  html,
   body {
     overflow-x: hidden;
   }
@@ -978,11 +979,6 @@ body {
   .hero .img-hero {
     order: 0;
     display: flex;
-  }
-
-  .hero .img-hero img {
-    position: static;
-    width: 500px;
   }
 
   .button-hero .buynow,
@@ -1095,7 +1091,8 @@ body {
   }
 
   .map iframe {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 400px;
   }
 
