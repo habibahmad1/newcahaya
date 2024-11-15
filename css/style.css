@@ -943,7 +943,6 @@ body {
 @media (max-width: 600px) {
   html,
   body {
-    overflow-x: hidden;
   }
 
   .card-orange {
