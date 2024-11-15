@@ -687,7 +687,7 @@ body {
 .card-testi {
   display: none; /* Hide all cards initially */
   width: 100%;
-  max-width: 60%; /* Optional: limit the width of the testimonial */
+  max-width: 800px; /* Optional: limit the width of the testimonial */
   height: 400px;
   background: white;
   padding: 20px;
@@ -1019,8 +1019,8 @@ body {
   .card-testi {
     display: none; /* Hide all cards initially */
     width: 100%;
-    max-width: 80%; /* Optional: limit the width of the testimonial */
-    height: 400px;
+    max-width: 350px; /* Optional: limit the width of the testimonial */
+    height: 500px;
     background: white;
     padding: 20px;
     border-radius: 8px;
