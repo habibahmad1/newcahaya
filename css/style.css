@@ -146,7 +146,7 @@ body {
 
 /* Navbar HP */
 
-.navbar-hp {
+/* .navbar-hp {
   display: none;
   height: 60px;
   background-color: #ff8d58;
@@ -197,7 +197,7 @@ body {
 }
 
 .hidden {
-  top: -100px; /* Menyembunyikan navbar di luar layar */
+  top: -100px; 
 }
 .navbar-hp .button {
   font-size: 30px;
@@ -205,7 +205,7 @@ body {
 .navbar-hp .button:hover {
   cursor: pointer;
   color: #000;
-}
+} */
 
 /* Content Hero */
 
